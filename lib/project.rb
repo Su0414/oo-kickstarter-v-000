@@ -6,7 +6,6 @@ class Project
     @backers = []
   end 
   
-  
   def add_backer(backer)
     @backers << backer
   end 
