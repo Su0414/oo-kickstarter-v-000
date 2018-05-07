@@ -14,7 +14,7 @@ class Backer
   
   def backed_projects=(backed_projects)
     @backed_projects = backed_projects
-    @backed_projects.add_backer ? 
+    @backed_projects.add_backer(self) if 
   end 
   
   def back_project(project) 
