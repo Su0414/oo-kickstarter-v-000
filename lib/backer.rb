@@ -14,7 +14,8 @@ class Backer
  
   def back_project(project_instance) 
     @backed_projects << project_instance
-    project_instance.backers = self if project_instance.backers !=self
+    project_instance.backers = self 
+    #if project_instance.backers !=self
   end 
   
 end 
